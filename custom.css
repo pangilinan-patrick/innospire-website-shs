@@ -1,0 +1,242 @@
+/*  Dark Blue - 3, 32, 95  #03205f
+    Normal - 12, 135, 192 #0c87c0
+    Light - 57, 179, 223  #39b3df
+*/
+
+html {
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+nav {
+  top: 0px;
+  z-index: 5;
+}
+
+.navbar-custom {
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+/* change the brand and text color */
+.navbar-custom,
+.navbar-custom .navbar-text {
+    color: #03205f;
+}
+
+.navbar-brand {
+  color: #03205f;
+  font-weight: bold;
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: #0c87c0;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #03205f;
+}
+
+/* Fonts */
+
+
+/* Header Image */
+
+#iisLogo {
+  height: 3em;
+}
+
+#headImage {
+  overflow:hidden;
+  font-family: 'roboto',sans-serif;
+  color: #FFFFFF;
+  background: no-repeat;
+  background-size: 100% auto;
+  padding: 6em;
+  padding-top: 13em;
+  padding-bottom: 15em;
+  background-position: 45% 70%;
+  background-image: url('img/programmer.jpg');
+}
+
+
+p.headTitle {
+  font-family: 'roboto black',sans-serif;
+  font-size: 4em;
+}
+
+p.headP {
+  font-size: 3em;
+}
+
+/* btn */
+.btn-custom { 
+  color: #FFFFFF; 
+  background-color: #39B3DF; 
+  border-color: #03205f; 
+  border-radius: 1em;
+} 
+ 
+.btn-custom:hover, 
+.btn-custom:focus, 
+.btn-custom:active, 
+.btn-custom.active, 
+.open .dropdown-toggle.btn-custom { 
+  color: #FFFFFF; 
+  background-color: #0C87C0; 
+  border-color: #03205f; 
+} 
+ 
+.btn-custom:active, 
+.btn-custom.active, 
+.open .dropdown-toggle.btn-custom { 
+  background-image: none; 
+} 
+ 
+.btn-custom.disabled, 
+.btn-custom[disabled], 
+fieldset[disabled] .btn-custom, 
+.btn-custom.disabled:hover, 
+.btn-custom[disabled]:hover, 
+fieldset[disabled] .btn-custom:hover, 
+.btn-custom.disabled:focus, 
+.btn-custom[disabled]:focus, 
+fieldset[disabled] .btn-custom:focus, 
+.btn-custom.disabled:active, 
+.btn-custom[disabled]:active, 
+fieldset[disabled] .btn-custom:active, 
+.btn-custom.disabled.active, 
+.btn-custom[disabled].active, 
+fieldset[disabled] .btn-custom.active { 
+  background-color: #39B3DF; 
+  border-color: #03205f; 
+} 
+ 
+.btn-custom .badge { 
+  color: #39B3DF; 
+  background-color: #FFFFFF; 
+}
+
+/* End of Header Image */
+
+/* Generic CSS */
+
+p.Title {
+  font-family: 'roboto black',sans-serif;
+  font-size: 2em;
+  color: #03205f;
+}
+
+.genericP {
+  font-size: 1.2em;
+  color: #03205f;
+}
+
+.lightTitle {
+  font-family: 'roboto',sans-serif;
+  font-size: 1.2em;
+  color: #39b3df;
+}
+
+hr {
+  width: 19em;
+  background-color: #39b3df;
+
+}
+
+.icons {
+  color: #39b3df;
+  font-size: 4em;
+}
+
+/* Who We Are */
+
+#whoweare {
+  overflow:hidden;
+  font-family: 'roboto',sans-serif;
+  background: no-repeat;
+  background-size: 100% auto;
+  padding: 6em;
+  padding-top: 12em;
+  padding-bottom: 15em;
+  background-position: 45% 40%;
+  background-image: url('img/laptop.jpg');
+}
+
+/* Why Us? */
+
+#whyus {
+  font-family: 'roboto',sans-serif;
+  color: #03205f;
+  padding: 6em;
+}
+
+.maxW {
+  max-width: 20em;
+}
+
+/* Mission Statement */
+
+#missionstatement {
+  overflow:hidden;
+  font-family: 'roboto',sans-serif;
+  background: no-repeat;
+  background-size: 100% auto;
+  color: #03205f;
+  padding: 6em;
+  background-position: 45% 40%;
+  background-image: url('img/mission-sm.jpg');
+}
+
+.missions {
+  width: 20em;
+  font-weight: bold;
+}
+
+/* mvvp */
+
+#mvvp {
+  font-family: 'roboto',sans-serif;
+  color: #03205f;
+  padding: 6em;
+}
+
+.mvvpmaxW {
+  max-width: 55em;
+  margin-bottom: 4em;
+}
+
+.mvvpIcons {
+  color: #03205f;
+  font-size: 1em;
+  margin-right: 0.5em;
+}
+
+/* Contact Us */
+#contactus {
+  font-family: 'roboto',sans-serif;
+  color: #03205f;
+  padding: 6em;
+}
+
+
+.back-to-top {
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+footer {
+  overflow:hidden;
+  background: no-repeat;
+  background-size: 100% auto;
+  color: #03205f;
+  background-position: 50% 95% ;
+  background-image: url('img/manila.jpg');
+}
+
+#copyright {
+
+}
